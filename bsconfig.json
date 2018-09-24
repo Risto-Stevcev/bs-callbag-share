@@ -1,0 +1,28 @@
+{
+  "name": "@ristostevcev/bs-callbag-share",
+  "version": "1.0.0",
+  "sources": [{
+    "dir" : ".",
+    "files" : ["CallbagShare.ml"]
+  }, {
+    "dir": ".",
+    "type": "dev",
+    "files": ["Example.ml"]
+  }],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+    "@ristostevcev/bs-callbag"
+  ],
+  "bs-dev-dependencies": [
+    "@ristostevcev/bs-callbag-for-each",
+    "@ristostevcev/bs-callbag-interval"
+  ],
+  "warnings": {
+    "error" : "+101"
+  },
+  "refmt": 3
+}
